@@ -1,5 +1,6 @@
 # Covariate-wise-optimal-cutoff
 This repository will contain R codes used for simulation and data analysis of the paper titled **"Impact of methodological assumptions and covariates on the cutoff estimation in ROC analysis"**. This file will not perform any analysis directly, rather, it guides to several R files located in the GitHub repository titled "Covariate-wise-optimal-cutoff" ([Link](https://github.com/soutikghosal/Covariate-wise-optimal-cutoff)). The repository contains 2 subfolders namely: i) Simulation, and ii) Data Analysis. Each of them contains relevant codes for the simulation and data analysis respectively. The raw data is not shared in the repository as a Data User Agreement is required to acquire the data. All R codes shared in the respective folders will be able to generate the relevant tables (with numbers) and figures used in the manuscript. This file will be publicly shared in the repository as well for guidance. Comments should be used throughout to explain decisions made and reference which paper result is being generated. 
+
 # Publication
 This file reproduces the results from the publication:
 
@@ -59,9 +60,12 @@ Data used in this article were obtained from the [Alzheimer’s Disease Neuroima
 In this context, our aim is to assess the diagnostic accuracy and determine the optimal cutoffs for various fluid biomarkers in AD diagnosis. The focus biomarkers include plasma amyloid-$\beta$ ($A\beta 42$), tau (total-tau or t-tau), and phosphorylated tau (p-tau). To achieve this, we utilized the dataset from the **ADSP Phenotype Harmonization Consortium (PHC)**, which collected fluid biomarker levels from various studies and cohorts, then merged the biomarker data across these cohorts. The fluid biomarker scores were harmonized across datasets such as ADNI, the National Alzheimer’s Coordinating Center (NACC), and the Memory and Aging Project at Knight Alzheimer’s Disease Research Center (MAP at Knight ADRC). Subsequently, the scores were co-calibrated and standardized to create z-score versions of the biomarkers. These biomarker information is available for a sample of 1249 subjects and their final outcome is categorized as: "Normal cognition", "Mild cognitive impairment", and "Alzheimer". Overall the data has following 17 variables:
 
 ![](snippet2.png)
+</p>
+  
 Among all, we only use the sample excluding "Mild cognitive impairment", which results in a sample of 682 subjects. We only retain a few variables of our interest. The complete data can be accessed following a database account approval. The metadata (also Table 7 of the manuscript) is provided below:
 
 ![](metadata.png)
+</p>
 
 ## Overall analysis (i.e. analysis without covariate)
 
