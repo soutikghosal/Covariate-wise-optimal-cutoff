@@ -52,18 +52,18 @@ Data used in this article were obtained from the [Alzheimer’s Disease Neuroima
 
 * Attribution for data source: ADSP Phenotype Harmonization Consortium (PHC)
 * Date data was received: March 2024
-* Cohort requested: Fluid biomarkers ($A\beta 42$, tau, and p-tau) information o samples along with demographic information (such as age, biological sex, race, etc.) and final outcome (Alzheimer/normal cognition) 
+* Cohort requested: Fluid biomarkers ($A\beta 42$, tau, and p-tau) information of samples along with demographic information (such as age, biological sex, race, etc.) and final outcome (Alzheimer/normal cognition) 
 
 
 ## Data
 
-In this context, our aim is to assess the diagnostic accuracy and determine the optimal cutoffs for various fluid biomarkers in AD diagnosis. The focus biomarkers include plasma amyloid-$\beta$ ($A\beta 42$), tau (total-tau or t-tau), and phosphorylated tau (p-tau). To achieve this, we utilized the dataset from the **ADSP Phenotype Harmonization Consortium (PHC)**, which collected fluid biomarker levels from various studies and cohorts, then merged the biomarker data across these cohorts. The fluid biomarker scores were harmonized across datasets such as ADNI, the National Alzheimer’s Coordinating Center (NACC), and the Memory and Aging Project at Knight Alzheimer’s Disease Research Center (MAP at Knight ADRC). Subsequently, the scores were co-calibrated and standardized to create z-score versions of the biomarkers. These biomarker information is available for a sample of 1249 subjects and their final outcome is categorized as: "Normal cognition", "Mild cognitive impairment", and "Alzheimer". Overall the data has following 17 variables:
+In this context, our aim is to assess the diagnostic accuracy and determine the optimal cutoffs for various fluid biomarkers in AD diagnosis. The focus biomarkers include plasma amyloid-$\beta$ ($A\beta 42$), tau (total-tau or t-tau), and phosphorylated tau (p-tau). To achieve this, we utilized the dataset from the **ADSP Phenotype Harmonization Consortium (PHC)**, which collected fluid biomarker levels from various studies and cohorts, and then merged the biomarker data across these cohorts. The fluid biomarker scores were harmonized across datasets such as ADNI, the National Alzheimer’s Coordinating Center (NACC), and the Memory and Aging Project at Knight Alzheimer’s Disease Research Center (MAP at Knight ADRC). Subsequently, the scores were co-calibrated and standardized to create z-score versions of the biomarkers. This biomarker information is available for a sample of 1249 subjects and their final outcome is categorized as: "Normal cognition", "Mild cognitive impairment", and "Alzheimer". Overall the data has the following 17 variables:
 </p>
 
 ![](snippet2.png)
 </p>
   
-Among all, we only use the sample excluding "Mild cognitive impairment", which results in a sample of 682 subjects. We only retain a few variables of our interest. The complete data can be accessed following a database account approval. The metadata (also Table 7 of the manuscript) is provided below:
+Among all, we only use the sample excluding "Mild cognitive impairment", which results in a sample of 682 subjects. We only retain a few variables of our interest. The complete data can be accessed following approval from the database account. The metadata (also Table 7 of the manuscript) is provided below:
 </p>
 
 ![](metadata.png)
